@@ -16,6 +16,7 @@ const messageGenerator = function () {
     let second = middle [ Math.floor (Math.random() * middle.length )];
     let third = ending [ Math.floor ( Math.random() * ending.length)];
     let inspirationalMessage = first + " " + second + " " + third + ".";
-    return inspirationalMessage;
+
+    document.getElementById("inspirational_message").innerHTML = inspirationalMessage;
 }
 

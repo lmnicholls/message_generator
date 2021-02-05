@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    
+}
+body::before {    
+    content: "";
+    background-image: url("/backgrounds/clouds.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.main {
+    position: relative;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 30px;
+}
